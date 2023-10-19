@@ -12,3 +12,8 @@ node js is deveped using c++
 ECMAscript European Computer Manufacturers Association
 
 ECMA6 --> 2016 major changes
+
+
+MERN road map
+
+Containerization, Auto scaling, 

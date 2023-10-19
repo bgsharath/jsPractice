@@ -1,0 +1,148 @@
+01Week 1: Introduction to Web Development & Version Control
+Class 1: Introduction to HTML & CSS
+
+Understanding the basics of web development
+Introduction to HTML tags and attributes
+Styling HTML pages with CSS
+
+Class 2: GIT & Responsive Design
+
+Introduction to GIT and version control
+Setting up a GIT repository and committing changes
+Creating responsive web pages with media queries
+Introduction to CSS frameworks like Bootstrap
+02Week 2: Advanced HTML, CSS, and JavaScript Fundamentals
+Class 3: Advanced CSS Techniques & Best Practices
+
+Advanced CSS techniques like flexbox and grid
+Best practices for HTML and CSS development
+Overview of JavaScript language and its features
+
+
+Class 4: JavaScript & ES6 Essentials (Part 1)
+
+Variables, data types, and operators
+Control flow statements (if-else, for, while, switch)
+Clouseres, Promises, Callbacks, event loops
+03Week 3: Advanced JavaScript Fundamentals
+Class 5: JavaScript & ES6 Essentials (Part 2)
+
+Introduction to ES6 features like let, const, and arrow functions
+Working with functions, objects, and arrays
+Variable types, scoping, and error handling
+
+
+Class 6: JavaScript DOM Manipulation
+
+Manipulating the DOM with JavaScript
+Handling events and user interactions with JavaScript
+Debugging and troubleshooting JavaScript code
+04Week 4: React Basics & Building Components
+Class 7: Introduction to React & JSX
+
+Introduction to React and its features
+Setting up a React development environment
+JSX syntax and its benefits
+Creating React components
+
+
+Class 8: React Components, Props & Conditional Rendering
+
+Creating reusable React components
+Using props to pass data between components
+Creating conditional rendering and handling events in React
+Best practices for React component development
+05Week 5: React State Management and Routing
+Class 9: React States & Hooks
+
+Introduction to React Hooks
+Understanding state and its importance in React
+Understanding useState and useEffect Hook
+Implementing custom hooks in React
+
+
+Class 10: React Routing and Types of Routers
+
+Understanding React Routing
+Understanding client-side routing & server-side routing
+Introduction to different types of React routers
+06Week 6: React LifeCycle & Introduction to Node.js
+Class 11: Class-Based Components, React Lifecycle & Context
+
+Introduction to class-based components
+Understanding React Lifecycle and its phases
+Introduction to React context
+Use of lazy and suspense
+
+
+Class 12: Introduction to Node.js
+
+Introduction to Node.js and its features
+Understanding the basics of web servers and HTTP requests
+Node Modules - HTTP, File Systems, etc.
+Understanding the Node.js event loop and asynchronous programming
+07Week 7: Node.js Advanced Concepts and RESTful API Mastery
+Class 13: Node.js Advanced Concepts 
+
+Using callbacks, promises, and async/await in Node.js
+Handling errors and debugging Node.js applications
+Implementing security best practices in Node.js
+
+
+Class 14: Building RESTful APIs with Node & Express.js
+
+Understanding the principles of RESTful APIs
+Setting up an Express.js development environment
+Building a simple Express.js server
+Building CRUD operations with Express.js
+Implementing middleware in Express.js
+Best practices for building scalable and maintainable APIs
+08Week 8: Mastering MongoDB - From Introduction to Advanced Features
+Class 15: Introduction to MongoDB & Mongoose
+
+Understanding NoSQL databases and MongoDB
+Setting up a MongoDB development environment
+Building MongoDB schema and models with Mongoose
+Using Mongoose to perform CRUD operations in MongoDB
+
+
+Class 16: MongoDB Indexing, Aggregation & Security
+
+Understanding MongoDB indexing and aggregation
+Implementing authentication and authorization with MongoDB
+Best practices for securing MongoDB applications
+Implementing data migrations and backups in MongoDB
+09Week 9: Advanced State Management with Redux and Express.js API
+Class 17: State Management with Redux
+
+Introduction to state management with Redux
+Setting up Redux in a React application
+Creating Redux actions and reducers
+Integrating Redux with React components
+
+
+Class 18: RESTful API Development with Express.js
+
+Advanced RESTful API concepts
+Implementing authentication and authorization in Express.js
+Handling file uploads and other advanced features
+Testing and documenting RESTful APIs
+10Week 10: Major Project Development and Deployment Strategies
+Class 19: Major Project - Developing an E-Commerce Website
+
+Applying the knowledge gained throughout the course
+Building an E-Commerce Website with MERN stack
+Developing features, integrating APIs, and implementing user authentication
+Project development, testing, and debugging
+
+
+Class 20: Deployment and Hosting
+
+Introduction to CI & CD pipelines
+Deploying React applications using hosting services like Netlify, Vercel, Cyclic, and more
+Deploying Node.js applications with server configurations
+
+
+MERN road map
+
+Containerization, Auto scaling, 
