@@ -2,12 +2,12 @@ Full stack web development
 
 A. Front End
 
-1.Internet Fundamentals
+1.Internet Fundamentals      Source https://codedamn.com/learn/http-fundamentals
     -DNS 
     -HTTP
 
-2.HTML & CSS
-    -HTML Fundamentals
+2.HTML & CSS                 Source https://codedamn.com/learn/html-css
+    -HTML Fundamentals              https://www.udemy.com/course/understanding-html-and-css/
     -CSS Fundamentals
     -CSS Flexbox
     -CSS Grid
@@ -17,7 +17,7 @@ A. Front End
     -Semantic HTML
     -Others
 
-3.Chrome DevTools
+3.Chrome DevTools            Source https://www.youtube.com/watch?v=Uuaue9odUEo
     -Console Tab
     -Source Tab
     -Network Tab
@@ -26,10 +26,10 @@ A. Front End
     HTML5/CSS3 Projects
 ..................................
 
-4.JavaScript
-    -Promises
-    -Inheritence
-    -DOM
+4.JavaScript                 Source https://www.youtube.com/watch?v=2md4HQNRqJA&list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD
+    -Promises                       namasthe JS notes
+    -Inheritence                    https://www.udemy.com/course/understand-javascript/
+    -DOM                            https://www.udemy.com/course/advanced-javascript-concepts/
     -Objects
     -Variables
     -Functions
@@ -37,18 +37,20 @@ A. Front End
     -Advance JS
     -Others
 
-5.Package Managers
-    -npm 
+5.Package Managers           Source https://www.youtube.com/watch?v=cjoTTSbOuG0
+    -npm
     -yarn
 
-6.Git+GitHub
+6.Git+GitHub                 Source https://www.udemy.com/course/github-actions-the-complete-guide/
     -Branches
     -Merging
     -Local & Remote Repository
     -Pull Requests
 
-7.React JS
-    -Basic to Advance
+7.React JS                   Source https://namastedev.com/namaste-react/
+    -Basic to Advance               https://www.youtube.com/watch?v=-XKvVyC6si0
+                                    https://www.youtube.com/watch?v=eCU7FfMl5WU&list=PLRAV69dS1uWQos1M1xP6LWN6C-lZvpkmq
+                                    https://www.udemy.com/course/complete-react-developer-zero-to-mastery/
 
 8.Tailwind CSS
     -Config
@@ -61,9 +63,9 @@ A. Front End
     -Next.js
     -Remix
 
-10.E2E Testing
-    -Playwright
-    -Cypress
+10.E2E Testing        Source https://www.youtube.com/watch?v=TFW_zvFHuOg
+    -Playwright              https://www.youtube.com/watch?v=69SFwgWHUig&list=PLUDwpEzHYYLvA7QFkC1C0y0pDPqYS56iU
+    -Cypress                 https://www.youtube.com/watch?v=ygkkN4Bxm38
 ............................................
 
 
@@ -110,5 +112,5 @@ B. Backend
     -GiHub Actions
     -Bitbucket
 
-Docker, AWS, EKS, Kubernates    
+Docker, AWS, EKS, Kubernates, Blackduck 
 

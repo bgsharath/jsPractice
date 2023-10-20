@@ -1,0 +1,116 @@
+Full stack web development
+
+A. Front End
+
+1.Internet Fundamentals      Source https://codedamn.com/learn/http-fundamentals
+    -DNS 
+    -HTTP
+
+2.HTML & CSS                 Source https://codedamn.com/learn/html-css
+    -HTML Fundamentals              https://www.udemy.com/course/understanding-html-and-css/
+    -CSS Fundamentals
+    -CSS Flexbox
+    -CSS Grid
+    -Positioning in CSS
+    -Media Queries
+    -CSS Animations
+    -Semantic HTML
+    -Others
+
+3.Chrome DevTools            Source https://www.youtube.com/watch?v=Uuaue9odUEo
+    -Console Tab
+    -Source Tab
+    -Network Tab
+    -Element Tab
+
+    HTML5/CSS3 Projects
+..................................
+
+4.JavaScript                 Source https://www.youtube.com/watch?v=2md4HQNRqJA&list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD
+    -Promises                       namasthe JS notes
+    -Inheritence                    https://www.udemy.com/course/understand-javascript/
+    -DOM                            https://www.udemy.com/course/advanced-javascript-concepts/
+    -Objects
+    -Variables
+    -Functions
+    -Scoping
+    -Advance JS
+    -Others
+
+5.Package Managers           Source https://www.youtube.com/watch?v=cjoTTSbOuG0
+    -npm
+    -yarn
+
+6.Git+GitHub                 Source https://www.udemy.com/course/github-actions-the-complete-guide/
+    -Branches
+    -Merging
+    -Local & Remote Repository
+    -Pull Requests
+
+7.React JS                   Source https://namastedev.com/namaste-react/
+    -Basic to Advance               https://www.youtube.com/watch?v=-XKvVyC6si0
+                                    https://www.youtube.com/watch?v=eCU7FfMl5WU&list=PLRAV69dS1uWQos1M1xP6LWN6C-lZvpkmq
+                                    https://www.udemy.com/course/complete-react-developer-zero-to-mastery/
+
+8.Tailwind CSS
+    -Config
+    -Plugins
+
+    React JS Projects
+............................................
+
+9.Server Side React.js
+    -Next.js
+    -Remix
+
+10.E2E Testing        Source https://www.youtube.com/watch?v=TFW_zvFHuOg
+    -Playwright              https://www.youtube.com/watch?v=69SFwgWHUig&list=PLUDwpEzHYYLvA7QFkC1C0y0pDPqYS56iU
+    -Cypress                 https://www.youtube.com/watch?v=ygkkN4Bxm38
+............................................
+
+
+B. Backend
+
+1.Node.js Basics
+    -CommonJS
+    -ESM
+    -HTTP Servers
+
+2.TypeScript
+    -Basics of Type Safety
+    -Best Practices
+
+3.JavaScript Under The Hood
+    -Node.js Internals
+    -Threadpool libuv
+    -Event Loop
+    -Microtask Queue
+    -Task Queue
+
+4.API Development
+    -Rest
+    -GraphQL
+
+5.SQL & NoSQL
+    -SQL fundamentals
+    -CRUD Operation
+    -Query Builders
+
+6.Express
+    -Route
+    -Middleware
+    -Others
+
+7.Redis
+    -API Caching
+    -Rate Limiting
+
+8.Web Security
+    -FrontEnd & Backend Web Security
+
+9.CI/CD
+    -GiHub Actions
+    -Bitbucket
+
+Docker, AWS, EKS, Kubernates, Blackduck 
+
