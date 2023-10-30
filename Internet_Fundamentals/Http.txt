@@ -1,0 +1,44 @@
+Hypertext Transfer Protocol (HTTP):Is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers
+Cross-Origin Resource Sharing (CORS)
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+100  Infomation response
+200  success
+300  Redirection messages
+400  client side error
+500  server side error
+
+...................................
+
+ftp file transfer protocol    to load http://example.com/about.html
+
+port no. -> run a multiple services in a single machine and communicate all of them differently
+
+HTTP runs on port 80 (or 8080), HTTPS on port 443 (or 8443). SSH runs on port 22. DNS runs on port 53, and so on.
+You have a finite number of ports, and the range of ports is from 0 to 65535. This means you cannot start a process on port number 70000 (as it is outside the valid port range)
+
+http methods
+
+GET fetch safe
+POST create unsafe hit multiples times new data created
+PUT  update unsafe multiple hits wont effeft
+Delete delete unsafe
+
+GET
+The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+
+POST
+The POST method submits an entity to the specified resource, often causing a change in state or side effects on the server.
+
+PUT
+The PUT method replaces all current representations of the target resource with the request payload.
+
+DELETE
+The DELETE method deletes the specified resource.
+
+PATCH
+The PATCH method applies partial modifications to a resource.
+
+Headers
+
+allow you to communicate more info n/w to the another computer

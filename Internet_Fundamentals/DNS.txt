@@ -1,0 +1,20 @@
+DNS -> Domain name system
+
+It converts any domain into number called an IP address (Internet Protocol)
+
+Technology which allows computer to resolve host name google.com to iP address 45.456.78.99
+
+1.1.1.1 cloudflare is a stand alone DNS server
+
+computer ask this 1.1.1.1 IP address to know the domain(codomn.com)'s Ip address
+
+OS ask 1.1.1.1 question for ip address of  coddemon.com
+
+1.1.1.1 ask another ip address to know the ip address of coddemon.com
+
+another ip address send ip address og codemon.com
+.......................................
+The Domain Name System's main task is to find the IP Address associated with the given domain name. The process of finding the IP address is called as DNS Lookup.
+
+For example for the domain codedamn.com DNS gives the IP address 76.76.21.9
+.......................................
