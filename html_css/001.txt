@@ -1,0 +1,45 @@
+Data Structure
+    -  A Perticular way to organize and store data so that a computer can quickly
+       and efficiently access and modify it.
+
+Type of data Structure
+    Doubly Linked list
+    Arrays
+    Trees
+    Linked List
+
+Trees
+
+user <----------------> user agent <----------------> documnet in internet
+
+user agent 
+    browser
+    screen readers
+    googlebot
+
+
+HTML
+
+Markup
+    marking up the ducument <name>sharath</name>
+    describes the document.
+
+Tags
+    A way to "markup" the document that is friendly to user 
+    agents and easy for humans to read and write.
+
+Language
+    consistent vaabulary
+    can convey meaning clearly
+    when learning, can got to a dictionary and look it up!
+
+SEMANTIC
+    having to do with meaning,  describing the docs conceptually
+    eg: <name>sharath</name>
+
+tags attribute elements
+<name firstname="bg" nickname="sh">sharath</name>
+img ref: element
+
+Elements and Trees
+img ref: elementTrees
