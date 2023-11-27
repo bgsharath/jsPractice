@@ -43,3 +43,57 @@ img ref: element
 
 Elements and Trees
 img ref: elementTrees
+
+Specifications
+    a standard of precise requirements
+
+Normative
+    establishing a standard
+
+HTML is the world wide web's core markup language.
+designed as a language for semantically describing scientific document.
+
+Author: writing and adding meaning to the document.
+Implementor: creating user agent which will communicate the document to the user.
+
+Content model
+    description of the element's indended contents
+
+        Kinds of content
+            Metadata content  -> base command link meta noscript script style title
+            Flow content ->  all
+            Sectioning content -> article aside nav section
+            Heading content -> h1 h2 h3 h4 h5 h6 hgroup
+            Phrasing content -> a abbr area audio button canvas cite code command datalist del  
+            Embedded content -> audio canvas embed iframe img math object svg video
+            Interactive content -> a audio button details embed iframe img input keygen label menu object select textarea video
+
+Doctype
+    are required for legacy reasons. When no doctype browsers tend to use a different rendering mode that is incompatible with sone specifications.
+    including doctype document ensure that the browser makes a best effort attempt at following the relevant specifications.
+
+<!DOCTYPE html> telling the user agent rest of the documnet follows the modern html
+
+html is the root
+<html lang="en"> en means english
+
+Metadata
+    A set of data that provides information about other data.
+
+Characterset
+    A set of supported characters(number,smbol,letters), UTF-8 covers almost everything in every language.
+    head conatins the Metadata.
+
+    metadata <head>
+                <mata charset='UTF-8'>  does not have close tag
+                <title>sharath's doc</title>
+             </head>
+
+    content  <body>
+             </body>
+    
+    image ref: container
+
+
+    <article></article>  self contained composition
+    <section></section> thematic grouping
