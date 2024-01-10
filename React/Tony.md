@@ -13,5 +13,11 @@ Dom Manipulation (browser Re-rendering)
 
 ![API](images/API.png)
 
-docment.getelementById('') is browser API not a jS standard
+docment.getelementById('') is browser API not a jS standard,
 setTimeout  is browser API not a jS standard
+
+    Imperative Programming
+        A style of programming in which you describe how a program should accomplish a task.
+    Declarative 
+        A style of programming in which you describe what you want the program to accomplish without describing how.
+    
