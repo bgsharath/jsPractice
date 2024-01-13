@@ -17,7 +17,17 @@ docment.getelementById('') is browser API not a jS standard,
 setTimeout  is browser API not a jS standard
 
     Imperative Programming
-        A style of programming in which you describe how a program should accomplish a task.
+        A style of programming in which you describe how a program should accomplish a task. 
+        ex: counter increment ![Alt text](images/image-1.png)
     Declarative 
         A style of programming in which you describe what you want the program to accomplish without describing how.
+        ex: ![Alt text](images/image.png)
+        focus only the logic
     
+React used Declarative 
+
+Recursion
+    A function calling itself
+
+![Alt text](images/image-2.png)
+![Alt text](images/image-3.png)
