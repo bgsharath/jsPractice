@@ -83,7 +83,80 @@ Fiber tree works in progress node
 
 Reconciliation Algorithm
 ![Alt text](images/image-12.png)
-Removeing Ul and add new UL 
-   fiberNode objects ->     deletions
-                            flag
+Removeing ul and add new ul
+   fiberNode objects -> deletions
+                        flag
 
+![Alt text](images/image-13.png)
+
+lanes and priority
+lanes are how react prioriteses the work
+
+Mounting , updating and unmounting
+refer reactlife cycle
+
+DOM events
+![Alt text](images/image-14.png)
+![Alt text](images/image-16.png)
+![Alt text](images/image-15.png)
+
+Propogation
+    Transmitting something in a particular direction through a medium
+
+Event delegation
+Assignng an event handler to an ancestor node in the tree.
+
+![Alt text](images/image-17.png)
+
+event.stopPropagation()  ->  avoid parent event bubble
+
+STATE
+    In the context of software, the data at any given time that defines the current state or condition of the system.
+
+Finite State Machines
+    A model od a process that can be in a limited number of states. ex: traffic light red green yellow.
+
+Deterministic
+    A predictable process that, in the context of a state machine, always results in the same output given the same inputs and state.
+
+![Alt text](images/image-18.png)
+
+React user interface is a function of state.
+
+Functional Programming
+    A style of programming where you organize your code into pure functions.
+    one of the concept is reducer
+reducer trafic ex:
+![Alt text](images/image-19.png)
+
+Hooks and state
+where state lives
+
+state store in hook
+
+hook are directly connected to fiber nodes
+![Alt text](images/image-20.png)
+hook is just a JS object attached to nodes 
+![Alt text](image.png)
+
+each hook has its own state properties
+![Alt text](image-1.png)
+
+Flush empty a data structure of its data and deal with the data.
+Dispatch -> sending the action to the reducer
+
+useState is a specialized version of useReducer
+unidirectional: data only moves in one direction
+in react data only move down
+Hooks are linked list
+
+Rules of hooks
+    1. You can only call hooks from a component.
+    2. Do not call inside a condition or loops.
+    ex:
+    ![Alt text](image-2.png)
+    if condition true pointer ponts to 1 2 3 hook
+    if condition false then pointer 3rd useState points to second hook instead of third.
+    inconsistent behaviou
+    should not skip the hook across renders
+    
