@@ -10,6 +10,12 @@ let markup = {
                     type: 'text',
                     value: 'sharath'
                 }
+            ],
+            props: [
+                {
+                    key:'style',
+                    value:`background:${'red'}`
+                }
             ]
         },
         {
@@ -19,7 +25,19 @@ let markup = {
                     type:'text',
                     value:'Click'
                 }
+            ],
+            props: [
+                {
+                    key:'style',
+                    value:`background:${'green'};color:${'black'}`
+                }
             ]
+        }
+    ],
+    props: [
+        {
+            key:'style',
+            value:`background:${'yellow'}`
         }
     ]
 }
@@ -32,10 +50,15 @@ function addElements(pojoelement,parentDomNode){
     let newDOMnode = pojoelement.type === 'text' ? document.createTextNode(pojoelement.value)
                                                 : document.createElement(pojoelement.type)
     if(pojoelement.children){
-        pojoelement.children.forEach(child => {
+        pojoelement.children.forEach(child => {                  
             addElements(child,newDOMnode)
-        });        
-    }                                            
+        })
+    }
+    if(pojoelement.props){
+        pojoelement.props.forEach(prop => {
+            newDOMnode.setAttribute(prop.key,prop.value)
+        })
+    } 
     parentDomNode.appendChild(newDOMnode)
 }
 
