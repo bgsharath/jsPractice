@@ -159,4 +159,6 @@ Rules of hooks
     if condition false then pointer 3rd useState points to second hook instead of third.
     inconsistent behaviou
     should not skip the hook across renders
+
+
     
