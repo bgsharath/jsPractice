@@ -121,6 +121,7 @@ Pure Component
 A function is said to be pure if it meets the following two conditions:
 Its return value is only determined by its input values
 Its return value is always the same for the same input values
+shallowCompare is an efficient way to detect changes. It expects you don't mutate data.
 
 ![alt text](image-17.png)
 ![alt text](image-18.png)
@@ -135,3 +136,128 @@ output
  functioanl component uses memo to make pure function
 
  but in FC useState component isn't re-rendered if it's the same value, i.e. a value that passes === comparison
+
+ Refs
+    access DOM node directly
+        uses focus input
+        access input text
+        callback ref
+
+Portals
+![alt text](image-20.png)
+It also helpes to event delegation
+because modal component or backdrops should not be affected by parent component i parent component stle might be display none, when it is in root , Thats why modal component will be placed in portals
+
+Error Boundary
+![alt text](image-21.png)
+![alt text](image-22.png)
+try / catch is great but it only works for imperative code, However, React components are declarative and specify what should be rendered:
+![alt text](image-23.png)
+![alt text](image-24.png)
+
+HOC
+![alt text](image-25.png)
+Pattern used to share a common functionality b/w componnet without repeating the code.
+ex: redux, router in react router, styles in MUI
+clickCounter -> wrapped comp / original comp
+hoverCounter -> wrapped comp / original comp
+withComponent -> reusable logics takes original component and produce enhanced component
+pass props
+pass arguamnts
+refer: withComponent
+
+Render props
+![alt text](image-26.png)
+
+Context
+![alt text](image-27.png)
+![alt text](image-28.png)
+
+HTTP
+![alt text](image-29.png)
+
+Hooks
+![alt text](image-30.png)
+![alt text](image-31.png)
+
+useState
+
+    prev value used to increment five time the counter
+    ![alt text](image-32.png)
+    out put count 5
+
+    useState with objects
+     does not automaticaly merge & update objects manually merge it by spred operator or prev state
+
+    <script>
+        const [formValues, setFormValues] = useState({
+            userId: "",
+            title: "",
+            body: "",
+        });
+
+        function formHandler(e) {
+            setFormValues((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+            setFormValues({ ...formValues, [e.target.name]: e.target.value });
+        }
+    <script/>
+    both are same
+
+useState with array
+
+![alt text](image-33.png)  
+![alt text](image-34.png)
+
+useEffect hook
+
+![alt text](image-35.png)
+code repeations to avoid useEffect comes into picture
+![alt text](image-36.png)
+use effect runs after every render
+conditionally render
+![alt text](image-37.png)
+comonent clean up subscription or event listners used for avoid memory leaks
+![alt text](image-38.png)
+tick counter example
+    use [count] as dependency or prevstate to tick counter
+
+useReducer hook
+![alt text](image-39.png)
+![alt text](image-40.png)
+![alt text](image-41.png)
+
+useReducer with Context
+![alt text](image-42.png)
+![alt text](image-43.png)
+
+useCallback hook
+used to performance optimization
+    React.memo is HOC
+![alt text](image-44.png)
+why can use useCallback hook all the time is not good idea?
+    You must strike a balance between the usage of the hook and the complexity it adds to your code. Hence, only use the hook only when you need to memoize an expensive function which needs to be passed down to children components as a prop.
+
+When using React.StrictMode in the application, react will render twice in development mode. This is to make sure that there are no side effects. however in Production environment, it only renders once.
+
+![alt text](image-45.png)
+
+output
+
+    render Title
+    Count.jsx:4 render Count age
+    IncrementButton.jsx:5 render age button click
+    Count.jsx:4 render Count salary
+    IncrementButton.jsx:5 render salary button click
+
+when we use React.memo and useCallback hook
+
+    render Count age
+    IncrementButton.jsx:5 render button click Increment Age
+![alt text](image-46.png)
+
+useRef
+can be used for this
+![alt text](image-47.png)
+
+Custom hook is simply a function that uses a hook and whatever function component calls that custom hook thats where the hook will end up attached to within the fibre tree.
+![alt text](image-48.png)
