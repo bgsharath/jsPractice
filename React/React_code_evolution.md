@@ -261,3 +261,101 @@ can be used for this
 
 Custom hook is simply a function that uses a hook and whatever function component calls that custom hook thats where the hook will end up attached to within the fibre tree.
 ![alt text](image-48.png)
+
+![alt text](image-49.png)
+
+The commit phase is usully very fast, bu rendering can be slow
+
+![alt text](image-50.png)
+
+![alt text](image-51.png)
+
+React.StrictMode -> intensiotinally double invoke function component body only in dev mode
+
+![alt text](image-52.png)
+![alt text](image-53.png)
+
+Ex: initial value of count is 0 if you click on button 0 it wont render.
+    after render increment value by 5 time then the current counter value is 5. then if you clcick button 5 it renders onece 
+same for useReducer
+
+non premitive 
+![alt text](image-54.png) 
+![alt text](image-55.png)
+
+optimise components without memo
+
+![alt text](image-56.png)
+
+Inseate of passing <ChildOne> pass {children} from app component
+![alt text](image-58.png)
+child one not rerender when parent rerenders.
+
+But grandparent state changes will render parent and child as well
+![alt text](image-59.png)
+
+![alt text](image-60.png)
+memo should be use for only expensive components
+
+Incorrect memo should not use children with html wrapped
+![alt text](image-61.png)
+
+Impure component example should not use memo bcoz date time will change without rops and state changes
+![alt text](image-62.png)
+
+Incorrect memo with props
+
+![alt text](image-63.png)
+If person obj is passsed to the memozed chil even if count incremented the child will rerender, also if we pass any function as a props to memosed child also renderder
+
+const handleClick = () => {}
+
+to overcome this use useMemo and useCallback ex: Incorrect memo and solotion
+
+.......... Context render ...........
+
+parent comp
+    provider
+        <childA/>
+childA
+childB
+childC
+    consume value
+
+output 
+    render parent
+    render A,B,C
+
+If use memo to childA
+    output 
+    render parent
+    render C
+
+![alt text](image-64.png)
+
+
+...React 18...
+
+eslintConfig => higlight possible errors in the code
+package-lock => consistency installed dependencies
+node_modules => folder where all the dependecies are installed
+
+public
+    favicon
+    logo
+    manifest
+is for progressive web apps
+robots.txt needed for search engine
+
+reportWebVitals => performance and analytics tracking
+
+![alt text](image-65.png) enables to use react 18 features
+
+named export , import {exact same name} from ''
+default can import any name from ''
+
+![alt text](image-66.png)
+
+elements are the smallest building blocks of react apps
+
+![alt text](image-67.png)

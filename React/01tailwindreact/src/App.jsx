@@ -28,6 +28,9 @@ import { PostListReducer } from "./components/httpForm/PostListReducer";
 import { UseCallbackParent } from "./components/useCallback/UseCallbackParent";
 import { ParentMemo } from "./components/memoization/ParentMemo";
 import { CustomHookParent } from "./components/customHook/CustomHookParent";
+import { UseState } from "./components/reactRender/UseState";
+import { StateImmutable } from "./components/reactRender/StateImmutable";
+import { IncorrectMemoParent } from "./components/IncorrectMemoSolution/IncorrectMemoParent";
 
 
 function App() {
@@ -75,7 +78,10 @@ function App() {
       {/* <PostListReducer/> */}
       {/* <UseCallbackParent/> */}
       {/* <ParentMemo/> */}
-      <CustomHookParent/>
+      {/* <CustomHookParent/> */}
+      {/* <UseState/> */}
+      {/* <StateImmutable/> */}
+      <IncorrectMemoParent/>
     </div>
   );
 }
